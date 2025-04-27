@@ -46,7 +46,7 @@ const CreatePost = ({ open, setOpen }) => {
     }
 
     try {
-      const res = await axios.post("http://localhost:8000/api/v1/post/addpost", formData, {
+      const res = await axios.post("https://socialmediaapp-c7ct.onrender.com/api/v1/post/addpost", formData, {
         headers: {
           'Content-Type': 'multipart/form-data',
         },

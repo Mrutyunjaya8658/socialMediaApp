@@ -50,7 +50,7 @@ const EditProfile = () => {
     }
     try {
       setLoading(true);
-      const res = await axios.post('http://localhost:8000/api/v1/user/profile/edit', formData,{
+      const res = await axios.post('https://socialmediaapp-c7ct.onrender.com/api/v1/user/profile/edit', formData,{
         
         withCredentials:true
       });

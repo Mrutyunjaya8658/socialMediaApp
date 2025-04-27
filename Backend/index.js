@@ -12,7 +12,7 @@ dotenv.config();
 
 // CORS configuration
 const corsOptions = {
-    origin: true,
+    origin: process.env.URL ,
     credentials: true,
 };
 

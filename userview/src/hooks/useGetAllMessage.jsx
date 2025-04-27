@@ -13,7 +13,7 @@ const useGetAllMessage = () => {
                 const token = localStorage.getItem("token"); // 👈 Get token from storage
 
                 const res = await axios.get(
-                    `http://localhost:8000/api/v1/message/all/${selectedUser?._id}`,
+                    `https://socialmediaapp-c7ct.onrender.com/api/v1/message/all/${selectedUser?._id}`,
                     {
                         
                         withCredentials: true,

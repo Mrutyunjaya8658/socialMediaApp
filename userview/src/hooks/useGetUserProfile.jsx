@@ -10,7 +10,7 @@ const useGetUserProfile = (userId) => {
            
             
             try {
-                const res = await axios.get(`http://localhost:8000/api/v1/user/${userId}/profile`, {
+                const res = await axios.get(`https://socialmediaapp-c7ct.onrender.com/api/v1/user/${userId}/profile`, {
                     withCredentials: true,
                 });
     

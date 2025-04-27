@@ -30,7 +30,7 @@ const Signup = () => {
       setLoading(true); // Fixed variable name here
       console.log(input);
       const res = await axios.post(
-        "http://localhost:8000/api/v1/user/register",
+        "https://socialmediaapp-c7ct.onrender.com/api/v1/user/register",
         input,
         {
           headers: {
